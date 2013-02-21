@@ -2,7 +2,7 @@
 Vagrant::Config.run do |config|
 
   config.vm.define :odi do |odi_config|
-    odi_config.vm.host_name = "my-super-awesome-vagrant-node"
+    odi_config.vm.host_name = "odi-vagrant"
     odi_config.vm.box = "precise64"
     odi_config.vm.network :hostonly, "33.33.33.100"
 
